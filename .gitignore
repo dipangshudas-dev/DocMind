@@ -1,0 +1,50 @@
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# FAISS vector database
+faiss_index/
+
+# Uploaded documents (optional)
+uploads/
+data/
+
+# Logs
+*.log
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build files
+build/
+dist/
+*.egg-info/
